@@ -1,0 +1,105 @@
+@media (max-width: 1200px) {
+
+  * {
+    box-sizing:border-box;
+  }
+
+  .box1 {
+    background-color:#66cdaa;
+    width:100%;
+    height:1730px;
+    background-size:cover;
+    color:white;
+    text-align:center;
+  }
+  
+  .box1 h1 {
+    padding-top:50px;
+    font-size:75px;
+  }
+  
+  .rari1 {
+    background-color:orange;
+    width:600px;
+    height:180px;
+    text-align:center;
+    position:absolute;
+    left:185px;
+    top:1000px;
+    border-radius: 10px;
+  }
+  
+  .rari2 {
+    background-color:orange;
+    width:600px;
+    height:180px;
+    text-align:center;
+    position:absolute;
+    left:185px;
+    top:1000px;
+    display:none;
+    border-radius: 10px;
+  }
+  
+  #utsu{
+    font-size:120px;
+    padding-top:5px;
+  }
+  
+  
+  
+  #hiroto {
+    display: block; 
+    margin: auto;
+    width:900px;
+    height:900px;
+  }
+  
+  #jun {
+    width:900px;
+    height:900px;
+    display: block; 
+    margin: auto;
+    position:absolute;
+    left:35px;
+    top:163px;
+    display:none;
+  }
+  
+  #ball {
+    width:900px;
+    height:900px;
+    position:absolute;
+    left:50px;
+    top:100px;
+  }
+  
+  
+  #count {
+    width:500px;
+    height:500px;
+    position:absolute;
+    left:235px;
+    top:350px;
+    font-size:150px;
+  }
+  
+  #kaisu {
+    width:500px;
+    height:500px;
+    position:absolute;
+    left:235px;
+    top:250px;
+    font-size:60px;
+  }
+  
+
+  
+  
+  
+  
+  
+  
+  
+  }
+  
