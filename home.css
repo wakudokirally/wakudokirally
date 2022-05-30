@@ -86,12 +86,22 @@ p{
   top:300px;
 }
 
+
+
 #board {
-  width:100px;
-  height:100px;
+  width:230px;
+  height:230px;
   position:absolute;
-  left:750px;
-  top:190px;
+  left:500px;
+  top:480px;
+}
+
+#michiko {
+  width:380px;
+  height:380px;
+  position:absolute;
+  left:320px;
+  top:400px;
 }
 
 
