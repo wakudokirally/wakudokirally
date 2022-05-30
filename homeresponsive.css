@@ -11,6 +11,7 @@
     background-size:cover;
     color:white;
     text-align:center;
+    position:relative;
   }
   
   .box1 h1 {
@@ -49,20 +50,21 @@
   
   
   #hiroto {
-    display: block; 
     margin: auto;
     width:900px;
     height:900px;
+    position:absolute;
+    left:0px;
+    top:230px;
   }
   
   #jun {
     width:900px;
     height:900px;
-    display: block; 
     margin: auto;
     position:absolute;
-    left:35px;
-    top:163px;
+    left:0px;
+    top:230px;
     display:none;
   }
   
