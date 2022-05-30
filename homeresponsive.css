@@ -76,6 +76,16 @@
     top:670px;
   }
 
+  #gold {
+    width:30px;
+    height:30px;
+    position:absolute;
+    left:213px;
+    top:663px;
+    display:none;
+    z-index:10;
+  }
+
   #board {
     width:230px;
     height:230px;
@@ -91,13 +101,22 @@
     left:320px;
     top:400px;
   }
+
+  #michiko100 {
+    width:380px;
+    height:380px;
+    position:absolute;
+    left:320px;
+    top:400px;
+    display:none;
+  }
   
   
   #count {
     width:500px;
     height:500px;
     position:absolute;
-    left:370px;
+    left:360px;
     top:535px;
     font-size:60px;
   }

@@ -96,6 +96,16 @@ p{
   top:480px;
 }
 
+#gold {
+  width:30px;
+  height:30px;
+  position:absolute;
+  left:213px;
+  top:663px;
+  /* display:none; */
+  z-index:10;
+}
+
 #michiko {
   width:380px;
   height:380px;
@@ -104,7 +114,14 @@ p{
   top:400px;
 }
 
-
+#michiko100 {
+  width:380px;
+  height:380px;
+  position:absolute;
+  left:320px;
+  top:400px;
+  display:none;
+}
 
 #count {
   width:500px;
