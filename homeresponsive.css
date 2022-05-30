@@ -69,11 +69,11 @@
   }
   
   #ball {
-    width:900px;
-    height:900px;
+    width:18px;
+    height:18px;
     position:absolute;
-    left:50px;
-    top:100px;
+    left:220px;
+    top:670px;
   }
   
   

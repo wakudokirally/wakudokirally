@@ -19,21 +19,21 @@ $('#raribox2').click(function(){
 
   $("#raribox1").click(function(){
     $("#ball").animate({
-      marginTop:'40px', 
-      marginLeft:'280px' 
+      marginTop:'60px', 
+      marginLeft:'350px' 
     }).animate({
-      marginTop:'-15px',
-      marginLeft:'350px'
+      marginTop:'-5px',
+      marginLeft:'480px'
     });
   });
 
   $("#raribox2").click(function(){
     $("#ball").animate({
-      marginTop:'40px', 
-      marginLeft:'10px' 
+      marginTop:'85px', 
+      marginLeft:'20px' 
     }).animate({
-      marginTop:'-10px',
-      marginLeft:'-65px'
+      marginTop:'0px',
+      marginLeft:'-45px'
     });
   });
 
