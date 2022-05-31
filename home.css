@@ -139,3 +139,43 @@ p{
   top:150px;
 }
 
+
+#buzz1 {
+  margin: auto;
+  width:900px;
+  height:900px;
+  position:absolute;
+  left:0px;
+  top:230px;
+  display:none;
+}
+
+#buzz3 {
+  margin: auto;
+  width:900px;
+  height:900px;
+  position:absolute;
+  left:0px;
+  top:230px;
+  display:none;
+}
+
+#buzz2 {
+  width:260px;
+  height:260px;
+  position:absolute;
+  left:479px;
+  top:480px;
+  z-index:3;
+  display:none;
+}
+
+#ude {
+  width:80px;
+  height:80px;
+  position:absolute;
+  left:510px;
+  top:570px;
+  z-index:0;
+  display:none;
+}

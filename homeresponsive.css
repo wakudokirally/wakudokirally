@@ -92,6 +92,17 @@
     position:absolute;
     left:500px;
     top:480px;
+    z-index:1;
+  }
+
+  #ude {
+    width:80px;
+    height:80px;
+    position:absolute;
+    left:510px;
+    top:570px;
+    z-index:0;
+    display:none;
   }
 
   #michiko {
@@ -100,6 +111,7 @@
     position:absolute;
     left:320px;
     top:400px;
+    z-index:2;
   }
 
   #michiko100 {
@@ -109,6 +121,7 @@
     left:320px;
     top:400px;
     display:none;
+    z-index:2;
   }
   
   
@@ -119,6 +132,7 @@
     left:360px;
     top:535px;
     font-size:60px;
+    z-index:3;
   }
   
   #kaisu {
@@ -130,6 +144,37 @@
     font-size:60px;
   }
   
+  #buzz1 {
+    margin: auto;
+    width:900px;
+    height:900px;
+    position:absolute;
+    left:0px;
+    top:230px;
+    display:none;
+  }
+
+  #buzz3 {
+    margin: auto;
+    width:900px;
+    height:900px;
+    position:absolute;
+    left:0px;
+    top:230px;
+    display:none;
+  }
+
+  #buzz2 {
+    width:260px;
+    height:260px;
+    position:absolute;
+    left:479px;
+    top:480px;
+    z-index:3;
+    display:none;
+  }
+
+
 
   
   

@@ -17,9 +17,6 @@ $('#raribox2').click(function(){
   $('#raribox1').fadeIn();
 });
 
-// $("#michiko").click(function(){
-//   $("gold").fadeIn();
-// });
 
 $('#michiko').click(function(){
   $('#gold').fadeIn();
@@ -66,16 +63,80 @@ $('#michiko').click(function(){
     });
   });
 
-  var num = 0;
+  var num0 = 0;
   $("#raribox2").click(function(){
-      $(this).data("click", ++num);
+      $(this).data("click", ++num0);
       var click = $(this).data("click");
-      if(click >= 100){
+      if(click == 100){
         $('#michiko').fadeOut();
         $('#michiko100').fadeIn();
+        $('#ude').fadeIn();
+        $('#ude').fadeOut();
       }
       return false;
   });
+
+  var num1 = 0;
+  $("#raribox2").click(function(){
+      $(this).data("click", ++num1);
+      var click = $(this).data("click");
+      if(click == 30){
+        $('#buzz1').fadeIn();
+      }
+      return false;
+  });
+
+  var num2 = 0;
+  $("#raribox2").click(function(){
+    $(this).data("click", ++num2);
+    var click = $(this).data("click");
+    if(click == 31){
+      $('#buzz1').fadeOut();
+    }
+    return false;
+});
+
+var num3 = 0;
+$("#raribox2").click(function(){
+    $(this).data("click", ++num3);
+    var click = $(this).data("click");
+    if(click == 50){
+      $('#buzz2').fadeIn();
+    }
+    return false;
+});
+
+var num4 = 0;
+$("#raribox2").click(function(){
+  $(this).data("click", ++num4);
+  var click = $(this).data("click");
+  if(click == 52){
+    $('#buzz2').fadeOut();
+  }
+  return false;
+});
+
+var num5 = 0;
+$("#raribox2").click(function(){
+    $(this).data("click", ++num5);
+    var click = $(this).data("click");
+    if(click == 80){
+      $('#buzz3').fadeIn();
+    }
+    return false;
+});
+
+var num6 = 0;
+$("#raribox2").click(function(){
+  $(this).data("click", ++num6);
+  var click = $(this).data("click");
+  if(click == 85){
+    $('#buzz3').fadeOut();
+  }
+  return false;
+});
+
+
 
 
 
